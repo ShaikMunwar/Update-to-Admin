@@ -15,10 +15,9 @@ btn.addEventListener('click', () => {
          Host: "smtp.gmail.com",
         Username:"shaikmohammad9097@gmail.com",
         Password:"qvsfofrfvkxzrxxp",
-        // SecureToken:"eb6deac8-f703-487a-af5a-2141b71d0518",
         To: "shaikmohammad9097@gmail.com",
         From: email,
-        Subject: "Contact Us Query By the Customer",
+        Subject: "Have A Look on this Details",
         Body:"Name: "+ name + "<br>"+ "Email: "+ email + "<br>" +"Phone: "+ phone + "<br>" +"Message: "+ msg 
     }).then(msg => alert("The email successfully sent"))
     })
